@@ -3,12 +3,12 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                url: 'https://github.com/SubhojitGuin/ci-cd-demo.git'
-            }
-        }
+        // stage('Checkout') {
+        //     steps {
+        //         git branch: 'main',
+        //         url: 'https://github.com/SubhojitGuin/ci-cd-demo.git'
+        //     }
+        // }
 
         stage('Build') {
             steps {
